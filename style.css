@@ -9660,8 +9660,8 @@ textarea.form-control {
         width: 90px;
         height: 90px;      
     }    
-    ::-webkit-scrollbar {
-      display: none;
+    /*::-webkit-scrollbar {
+      display: none;*/
   }
     ::selection {
       color: white;
