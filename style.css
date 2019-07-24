@@ -458,8 +458,8 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /*padding-right: 15px;
+  padding-left: 15px;*/
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -9660,8 +9660,8 @@ textarea.form-control {
         width: 90px;
         height: 90px;      
     }    
-    /*::-webkit-scrollbar {
-      display: none;*/
+    ::-webkit-scrollbar {
+      display: none;
   }
     ::selection {
       color: white;
