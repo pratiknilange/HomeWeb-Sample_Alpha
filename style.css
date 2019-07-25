@@ -66,6 +66,11 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+  
+html, body {
+    overflow-x:hidden 
+  }  /*To remove the white area on the right side of the browser in mobile devices*/
+
 
 hr {
   -webkit-box-sizing: content-box;
